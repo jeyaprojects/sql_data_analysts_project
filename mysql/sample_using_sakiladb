@@ -1,1 +1,21 @@
+The queries we will be developing are: 
 
+1) All films with PG-13 films with rental rate of 2.99 or lower
+
+2) All films that have deleted scenes
+
+3) All active customers
+
+4) Names of customers who rented a movie on 26th July 2005
+
+5) Distinct names of customers who rented a movie on 26th July 2005
+
+6) How many rentals we do on each day?
+
+7) All Sci-fi films in our catalogue
+
+8) Customers and how many movies they rented from us so far?
+
+9) Which movies should we discontinue from our catalogue (less than 2 lifetime rentals)
+
+10) Which movies are not returned yet?
