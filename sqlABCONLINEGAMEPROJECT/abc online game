@@ -1,0 +1,6 @@
+ABC is a real-money online gaming company providing multiplayer games such as Ludo. An user can register as a player, 
+deposit money in the platform and play games with other players on the platform. 
+
+
+Final Loyalty Point Formula
+Loyalty Point = (0.01 * deposit) + (0.005 * Withdrawal amount) + (0.001 * (maximum of (#deposit - #withdrawal) or 0)) + (0.2 * Number of games played)
