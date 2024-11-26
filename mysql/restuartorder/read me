@@ -1,0 +1,53 @@
+maven analysts:
+Restaurant order:
+(first download the restaurant order db in maven Analysts go to MySQL-->add new connection-->give "restaurant_db"--as name-->go to  file-->open sql script-->open the downloaded script-->
+then run the script to open and create bd and table(use lighting icon))
+we can see the green check, meaning the data has been loaded successfully.
+then refresh to see the "restaurant db", and expand the table, we can see the table-->menu and order table)
+
+
+
+objectives:
+1----> Explore the item table
+   ---> View the menu item table and write the query to find the number of items  on the menu
+   ----> What are the least and most expensive items on the menu
+  ----> How many Italian items are on the menu and least expensive item in Italian dishes on the menu
+  ----> How many dishes are in each category and average price in each category
+
+goto to new query:
+--->USE restaurant dB
+
+our question:
+1---> View the menu item table
+2---> Find the number of items in the menu table
+3--> What are the least and most expensive items on the menu
+4---> How many Italian items are on the menu 
+5---->least expensive item in Italian dishes on the menu
+6=--->>how many dishes are in each category
+7--> Average price within each category
+
+
+objective:2-->order table
+1--> View the order table, what is the date range of the table
+2--> How many orders are made within the date range; how many items are ordered within this date range
+3---> Which order has the most number of items
+4--> How many orders had more than 12 items
+
+questions:
+1--> View the order table details,
+2---> What is the date range of the table
+3--> How many orders are made within the date range;
+4--->how many items are ordered within this date range
+5---> Which order has the most number of items
+6--> How many orders had more than 12 items
+
+
+objective 3:to Analyze the customer behavior:
+1--> Combine menu and order table together
+2---> What are the least and most ordered items and what category are they in?
+3---> What were the top 5 orders that spent the most money?
+4--->views the details of the highest spend order, and what insight can you gather from the results
+5--->view the details of the highest top 5 spend  orders. what insight can you gather from the results
+
+(we always join a transaction table to another table, and we so do left join , so that we have all transactions available)
+
