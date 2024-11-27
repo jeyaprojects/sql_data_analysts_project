@@ -1,0 +1,35 @@
+project: TOY STORE KPI REPORT:
+
+objective:
+1--->connect and profile the data
+2--->create a relationship model
+3--->Add calculated measure and fields
+4-->Build and iteractive report
+
+objective :1
+*--->connect to sale,stores,product nd calender csv file
+*--->Review table columns, check for blank or null values, confirm that datatypes are accurately defined, and identify any primary and foreign keys
+*--->Take a moment to profile the data. How many transactions were recorded? How many stores does Maven Toys operate? What are the lowest and highest priced products?
+*--->Add calculated columns in the calendar table for ‘start of month’ and ‘start of week’
+
+
+objective :2 2--->create a relationship model
+*--->load the data to the model,create relionshp bewteeen rtables:
+*------>many  to one relation between fact and dimension table
+*------>create date hierarchy from date---->start of month,start ofweeek, and date
+*------------------->hide all the foreign key  in the sales in the reportview
+
+
+objective 3 :3--->Add calculated measure and fields(help to enchance the model ,get the data for visualization)
+*------>create  calculate column in the sales table to put "cost"and "price" from product table,and use those field tocalcutale "revene"and "profit" fo each trnascton
+*----------->create measures to calculate "count of order" ie "total order",sum of revenue "total renuve " and sm of pofit"total profit"
+*----------->calulate total renue ad profit without refereing any calculated column in the sale table
+
+obective 4:
+4-->Build and iteractive report
+*---->Add KPI card visuals showing ‘total orders’, ‘total revenue’ and ‘total profit’ for the current month, along with monthly trends for each metric
+*----->Add a slicer to filter the report page by store location
+*----------->Add a bar chart showing ‘total orders’ by product category, and a line chart showing ‘total revenue’ with the date hierarchy on the x-axis
+*-------------->Assemble the charts into a logical layout and adjust formatting, alignment and polish to finalize the report as you see fit
+
+
