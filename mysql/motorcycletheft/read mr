@@ -1,0 +1,57 @@
+mavan analysts:
+
+Objective 1
+Identify when vehicles are likely to be stolen
+Your first objective is to explore the vehicle and date fields in the stolen_vehicles table to identify when vehicles tend to be stolen
+
+
+Objective 2
+Identify which vehicles are likely to be stolen
+Your second objective is to explore the vehicle type, age, luxury vs standard and color fields in the stolen_vehicles table to identify which vehicles are most likely to be stolen
+
+
+Objective 3
+Identify where vehicles are likely to be stolen
+Your third objective is to explore the population and density statistics in the regions table to identify where vehicles are getting stolen, and visualize the results using a scatter plot and map.
+
+
+
+
+
+Objective 1
+Identify when vehicles are likely to be stolen
+Your first objective is to explore the vehicle and date fields in the stolen_vehicles table to identify when vehicles tend to be stolen
+Task:
+--->Find the number of vehicles stolen each year
+---->Find the number of vehicles stolen each month
+---->Find the number of vehicles stolen each day of the week
+---->Replace the numeric day of week values with the full name of each day of the week (Sunday, Monday, Tuesday, etc.)
+----->Create a bar chart that shows the number of vehicles stolen on each day of the week
+
+
+Objective 2
+Identify which vehicles are likely to be stolen
+Your second objective is to explore the vehicle type, age, luxury vs standard and color fields in the stolen_vehicles table to identify which vehicles are most likely to be stolen
+
+Task:
+---->Find the vehicle types that are most often and least often stolen
+---->For each vehicle type, find the average age of the cars that are stolen
+---->For each vehicle type, find the percent of vehicles stolen that are luxury versus standard
+---->Create a table where the rows represent the top 10 vehicle types, the columns represent the top 7 vehicle colors (plus 1 column for all other colors) and the values are the number of vehicles stolen
+---->Create a heat map of the table comparing the vehicle types and colors
+
+
+
+Objective 3
+Identify where vehicles are likely to be stolen
+Your third objective is to explore the population and density statistics in the regions table to identify where vehicles are getting stolen, and visualize the results using a scatter plot and map.
+
+Task
+----->Find the number of vehicles that were stolen in each region
+----->Combine the previous output with the population and density statistics for each region
+----->Do the types of vehicles stolen in the three most dense regions differ from the three least dense regions?
+----->Create a scatter plot of population versus density, and change the size of the points based on the number of vehicles stolen in each region
+----->Create a map of the regions and color the regions based on the number of stolen vehicles
+
+
+----->How many total vehicles were stolen in the most dense region?
