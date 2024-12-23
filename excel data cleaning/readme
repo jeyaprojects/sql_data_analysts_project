@@ -1,0 +1,4 @@
+Data cleaning in Excel involves organizing and correcting data to ensure it is accurate, consistent, and usable. This process includes removing duplicates, 
+handling missing values, standardizing formats for text, numbers, and dates, and correcting inconsistent or invalid entries. Functions like TRIM, CLEAN, and SUBSTITUTE can help fix common issues, 
+while tools like Remove Duplicates, Find & Replace, and Data Validation ensure data consistency. For advanced tasks, splitting or merging columns and using Power Query can simplify the process. 
+Clean data is essential for accurate analysis and decision-making.
