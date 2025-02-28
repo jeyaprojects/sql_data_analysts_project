@@ -1,0 +1,20 @@
+Overview
+This Flight Status Dashboard provides an in-depth analysis of flight performance, delays, and cancellations. It helps stakeholders identify key trends, optimize operations, and enhance passenger experience.
+
+Features
+Total Flights Analysis: Displays the total number of flights and trends over time.
+Flight Delays: Highlights the number of delayed flights and percentage by airline.
+Flight Cancellations: Analyzes cancellation trends by month and day of the week.
+Performance Metrics: Provides insights into on-time, delayed, and canceled flights.
+Data Insights
+2M Total Flights recorded across multiple cities.
+790K Delayed Flights (~41% of total).
+29K Canceled Flights, with trends based on time and airline.
+Top Affected Airlines: United Airlines, Southwest Airlines, Spirit Airlines.
+Tech Stack
+Power BI: Data visualization and dashboard creation.
+Excel & SQL: Data processing and transformation.
+Usage
+Open the Power BI dashboard file.
+Explore key flight metrics and trends.
+Use insights to improve decision-making in airline operations.
